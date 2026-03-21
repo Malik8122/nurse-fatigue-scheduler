@@ -94,3 +94,4 @@ def burnout_page():
             st.download_button("Download PDF", f,
                                file_name="burnout_report.pdf",
                                mime="application/pdf")
+burnout_page()
